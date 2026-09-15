@@ -1,0 +1,17 @@
+{
+  "name": "mesh-route-panel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Control-plane prototype for a mesh-aware VPN panel",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
